@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -Wall -Wextra -g    CMakeFiles/main.out.dir/src/play_video/Filesystem.cpp.o CMakeFiles/main.out.dir/src/play_video_gui/PlayerWindow.cpp.o CMakeFiles/main.out.dir/src/play_video_gui/play_video_gui.cpp.o CMakeFiles/main.out.dir/src/play_video_test/play_video_test.cpp.o  -o main.out -rdynamic 

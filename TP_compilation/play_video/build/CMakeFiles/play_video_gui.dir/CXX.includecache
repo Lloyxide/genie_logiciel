@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/play_video/Filesystem.hpp
+string
+-
+vector
+-
+
+/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_compilation/play_video/src/play_video_gui/PlayerWindow.cpp
+PlayerWindow.hpp
+/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_compilation/play_video/src/play_video_gui/PlayerWindow.hpp
+gdk/gdkx.h
+-
+
+/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_compilation/play_video/src/play_video_gui/PlayerWindow.hpp
+gtkmm.h
+-
+vlc/vlc.h
+-
+string
+-
+vector
+-
+
+/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_compilation/play_video/src/play_video_gui/play_video_gui.cpp
+PlayerWindow.hpp
+/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_compilation/play_video/src/play_video_gui/PlayerWindow.hpp
+play_video/Filesystem.hpp
+-
+iostream
+-
+

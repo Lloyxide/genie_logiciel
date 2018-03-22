@@ -1,0 +1,53 @@
+echo le nom de l'utilisateur
+echo "Bonjour $USER"
+
+echo "Bonjour $USER" tel quel
+echo 'Bonjour $USER'
+echo "Bonjour \$USER"
+
+Libérer le terminal sans fermer un processus ouvert
+ctrl+z 
+bg
+
+Arrêter le flux (si cat ou autre)
+ctrl+d
+
+Lister en L33T
+ls -l | tr "[a, e, o, i]" "[4, 3, 0, 1]"
+
+Afficher le contenu d'un fichier en majuscules
+less liste.txt | tr "[a-z]" "[A-Z]"
+
+Afficher les lignes contenant un 8
+grep 8 liste.txt
+
+Afficher les fichier .hpp
+find /usr/include -name *.hpp
+
+Dans tout les fichiers .hpp, chercher les lignes contenant TODO
+find /usr/include -name *.hpp | xargs grep TODO
+
+Lister et trier le contenu pour chaque fichier
+find *.txt -exec sort {} \;
+
+Lister et trier le contenu de chaque fichier
+find *.txt -exec sort {} \; | sort
+
+Remplacer le premier t de chaque ligne par blou 
+a.txt | sed "s/t/blou/"
+
+Remplacer le second t de chaque ligne par un espace
+less a.txt | sed "s/t/ /2"
+
+Afficher la première colonne d'un fichier
+less liste.txt | awk '{print $1}'
+
+Rendre un fichier executable
+chmod +x fichier
+
+Executer un fichier
+./fichier
+
+
+
+

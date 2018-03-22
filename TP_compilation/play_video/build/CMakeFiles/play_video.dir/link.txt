@@ -1,0 +1,2 @@
+/usr/bin/ar cr libplay_video.a  CMakeFiles/play_video.dir/src/play_video/Filesystem.cpp.o
+/usr/bin/ranlib libplay_video.a

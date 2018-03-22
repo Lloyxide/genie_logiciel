@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++14 -Wall -Wextra -g    CMakeFiles/play_video_test.dir/src/play_video_test/play_video_test.cpp.o  -o play_video_test -rdynamic libplay_video.a -lboost_system -lboost_filesystem 

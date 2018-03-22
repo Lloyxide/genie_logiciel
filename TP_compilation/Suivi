@@ -1,0 +1,56 @@
+		| SayHello |
+
+-c : Compilation
+-o : Nom d'ouput
+-OL: Optimisation
+-g
+-Wall : Affichage d'erreurs
+-l
+-L
+-I
+-std=c++14  
+
+g++ -std=c++14 sayHello.cpp module1.cpp
+./a.out
+	
+| compile.sh |
+#!/bin/sh
+g++ -c -Wall sayHello.cpp
+g++ -c -Wall -std=c++14 module1.cpp
+g++ -Wall -o sayHello sayHello.o module1.o
+
+g++ -c sayHello.cpp
+g++ -c -std=c++14 module1.cpp
+g++ -o sayHello sayHello.o module1.o
+./sayHello.out
+
+| clean.sh |
+#!/bin/sh
+rm -f *.o *.out
+
+		| Imshow |
+
+Bibliothèque utilisée : opencv2/opencv.hpp
+pkg-config --list-all | grep opencv
+
+c++ `pkg-config --libs opencv` imshow.cpp
+./a.out gnu.jpg
+
+		| Makefile |
+
+CXXFLAGS = -Wall -std=c++14 -O2
+LDFLAGS = `pkg-config --libs opencv`
+
+all: sayHello
+
+sayHello:sayHello.o module1.o
+	g++ $(CXXFLAGS) -o $@ $(LDFLAGS) $^
+
+[%.o:%.cpp
+	g++ $(CXXFLAGS) -c $<] Supprimable, automatique
+
+clean:
+	rm -f *.o sayHello
+
+
+

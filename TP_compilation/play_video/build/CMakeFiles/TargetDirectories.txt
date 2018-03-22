@@ -1,0 +1,3 @@
+/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_compilation/play_video/build/CMakeFiles/play_video.dir
+/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_compilation/play_video/build/CMakeFiles/play_video_gui.dir
+/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_compilation/play_video/build/CMakeFiles/play_video_test.dir

@@ -1,0 +1,11 @@
+CC=gcc
+OPTION= -g -Wall -std=c++14
+
+sayHello: 		sayHello.o module1.o
+				$(CC) -o sayHello sayHello.o module1.o
+
+sayHello.o:			sayHello.c 
+				$(CC) -c sayHello.cpp $(OPTION)
+
+module1.o:			module1.c 
+				$(CC) -c module1.cpp $(OPTION)
