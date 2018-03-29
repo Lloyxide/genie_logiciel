@@ -6,3 +6,10 @@ Drunk_player est composé de :
 - d'une bibliothèque (drunk_player) contenant le code de base
 - d'un programme graphique (drunk_player_gui) qui affiche le résultat à l'écran
 - d'un programme (drunk_player_cli) qui sort le résultat dans un fichier
+
+Dépendances
+===========
+- OpenCV
+- Boost
+
+Compilation
