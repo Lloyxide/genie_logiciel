@@ -15,10 +15,11 @@ Dépendances
 Compilation
 ===========
 
-`mkdir build`
-`cd build`
-`cmake ..`
-`make`
+```mkdir build
+cd build
+cmake ..
+make
+```
 
 Utilisation
 ===========
