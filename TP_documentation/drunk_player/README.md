@@ -13,3 +13,15 @@ Dépendances
 - Boost
 
 Compilation
+===========
+
+`mkdir build
+cd build
+cmake ..
+make`
+
+Utilisation
+===========
+`/drunk_player_gui.ou ../data/`
+
+![alt text](./drunk_player_gui.png "Image")
