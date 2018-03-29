@@ -1,0 +1,5 @@
+PROJECT_NAME           = drunk_player
+OUTPUT_DIRECTORY       = /etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_documentation/drunk_player/build/../doc/
+INPUT                  = /etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_documentation/drunk_player/src
+EXTRACT_ALL            = YES
+RECURSIVE              = YES

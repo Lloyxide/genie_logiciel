@@ -1,0 +1,4 @@
+/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_documentation/drunk_player/build/CMakeFiles/doc.dir
+/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_documentation/drunk_player/build/CMakeFiles/drunk_player.dir
+/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_documentation/drunk_player/build/CMakeFiles/drunk_player_cli.out.dir
+/etudiants/tlarose/Documents/genie_logiciel/genie_logiciel/TP_documentation/drunk_player/build/CMakeFiles/drunk_player_gui.out.dir
